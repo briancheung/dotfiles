@@ -7,6 +7,9 @@ vbell off
 # Remap Control-a to something that VIM doesnt use
 escape ^bB
  
+# Autodetach session on hangup instead of terminating screen completely
+autodetach on 
+
 # Window list at the bottom. hostname, centered tabs and redmarked active windows:
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
