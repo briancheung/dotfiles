@@ -1,5 +1,5 @@
 " Makes the mouse pointer useful
-set mouse=a
+" set mouse=a
 
 " Show line numbers
 set number
@@ -19,9 +19,7 @@ filetype plugin indent on
 filetype plugin on
 
 " Useful shortcut to insert debuging breakpoints
-map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+map <Leader>b Oimport IPython; IPython.embed() # BREAKPOINT<C-c>
 
-" Load rope plugin (not working on my system 7/7/2013)
-let g:pymode_rope = 0
 " For the time being, we'll use omnicomplete
 set omnifunc=syntaxcomplete#Complete
