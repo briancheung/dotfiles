@@ -12,9 +12,6 @@ syntax on
 " Great tool to handle vim plugins cleanly
 filetype off
 
-call pathogen#infect()
-call pathogen#helptags()
-
 filetype plugin indent on
 filetype plugin on
 
