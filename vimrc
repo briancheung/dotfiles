@@ -16,7 +16,7 @@ filetype plugin indent on
 filetype plugin on
 
 " Useful shortcut to insert debuging breakpoints
-map <Leader>b Oimport IPython; IPython.embed() # BREAKPOINT<C-c>
+map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 " For the time being, we'll use omnicomplete
 set omnifunc=syntaxcomplete#Complete
